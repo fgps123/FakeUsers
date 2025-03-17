@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador FakeUser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Gerador de FakeUsers</h1>
+    <div class="formuser">
+        <span><b>Gênero:</b></span>
+        <input value="" type="radio" name="gender" checked> Aleatório
+        <input value="male" type="radio" name="gender"> Masculino
+        <input value="female" type="radio" name="gender"> Feminino
+    
+        <span><b>Nacionalidade:</b></span>
+        <select id="natuser">
+            <option value="br">Brasil</option>
+            <option value="mx">México</option>
+            <option value="es">Espanha</option>
+            <option value="us">Estados Unidos</option>
+        </select>
+    
+        <span><b>Quantidade:</b></span>
+        <select id="quantusers">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+    
+    <button onclick="generateFakeUser()">Gerar Usuário</button>
+    </div></header>
+    <hr>
+
+    <div class="AllUsers">
+       
+        </div>
+    </div>
+
+    <footer>
+        <h1>text</h1>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
