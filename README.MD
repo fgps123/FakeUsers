@@ -73,10 +73,10 @@ a API utilizada foi a https://randomuser.me/ que fornece informações de usúar
 
 ## Funcionalidades
 
-- [ x ] Filtro de usúarios pelo Gênero
-- [ x ] Filtro de usúarios pela Nacionalidade
-- [ x ] Filtro de usúarios pela Quantidade
-- [ x ] Filtro de usúarios pelo Nome
+- [X] Filtro de usúarios pelo Gênero
+- [X] Filtro de usúarios pela Nacionalidade
+- [X] Filtro de usúarios pela Quantidade
+- [X] Filtro de usúarios pelo Nome
 - [  ] Responsividade da tela
 - [  ] Aumentar o filtro da quantidade de usúarios
 - [  ] Colocar mais opções de países
